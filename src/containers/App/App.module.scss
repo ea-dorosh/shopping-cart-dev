@@ -1,0 +1,41 @@
+.page {
+ display: flex;
+ padding: 50px 0;
+ min-height: 100vh;
+ height: 100%;
+ min-width: 1200px;
+ background: darkgray;
+ background-size: 64px;
+}
+
+.wrapper {
+ margin: 0 auto;
+ padding: 40px;
+ width: 100%;
+ max-width: 1400px;
+ background: #000000;
+ border-radius: 50px;
+ box-shadow: 0 0 10px 2px #02030e94;
+}
+
+.title {
+ margin: 0;
+ width: fit-content;
+ color: #ffffff;
+ font-size: 2rem;
+}
+
+.inner {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ grid-column-gap: 40px;
+ margin-top: 40px;
+}
+
+.orderInfo {
+
+}
+
+.productsList {
+
+}
